@@ -1,6 +1,14 @@
 let nombreIngresado = prompt("Escribí tu nombre.")
-let pregunta = prompt(`Hola ${nombreIngresado}, bienvenidx a nuestro menú`)
+let pregunta = prompt(`Hola ${nombreIngresado.toUpperCase()}, bienvenidx a nuestro menú, podés:
+1- Ver stock de libros.
+2- Agregar a tus libros leidos.
+3- Vender un libro.
+4- Salir
+Escribí el número de la opción`)
 console.log(pregunta)
+switch(pregunta){
+    case 1:
+}
 
 
 
