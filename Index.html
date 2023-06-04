@@ -4,12 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <title>PreEntrega1 Nélida Barón/ Librería</title>
 </head>
 <body>
-    <h2>Clase 1</h2>
-    <!--formas de ecribir-->
+    <div class="header">
+    <h1>Librería</h1>
+    </div>
 
-    <script src="JavaScript.js"></script>
-</body>
+    <div class="container">
+    <h2>Libros disponibles</h2>
+
+    <div class="books-list">
+        <div class="book">
+        <img src="https://m.media-amazon.com/images/I/812B0KEycPL._AC_UF1000,1000_QL80_.jpg" alt="Libro 1">
+        <div class="book-info">
+            <h3 class="book-title">Título del libro 1</h3>
+            <p class="book-author">Autor del libro 1</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        </div>
+
+        <div class="book">
+            <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/694342.jpg" alt="Libro 2">
+            <div class="book-info">
+            <h3 class="book-title">Título del libro 2</h3>
+            <p class="book-author">Autor del libro 2</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        </div>
+
+        </div>
+
+        <div class="sell-form">
+        <h2>Vender un libro</h2>
+        <form>
+            <input type="text" placeholder="Título del libro" required>
+            <input type="text" placeholder="Autor del libro" required>
+            <input type="number" placeholder="Precio del libro" required>
+            <button type="submit">Vender</button>
+        </form>
+        </div>
+
+        <div class="read-form">
+        <h2>Libros leídos</h2>
+        <form>
+            <input type="text" placeholder="Título del libro" required>
+            <input type="number" placeholder="Calificación del libro (1-5)" required>
+            <button type="submit">Añadir</button>
+        </form>
+        </div>
+    </div>
+    </body>
 </html>
